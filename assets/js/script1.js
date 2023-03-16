@@ -15,21 +15,12 @@ function sendEmail(event) {
   subject: assunto,
   message: mensagem,
   };
+  console.log(emailData)
   
-  emailjs.sendForm('service_liq9ztn', 'contato', emailData)
-  .then(function() {
-      console.log('SUCCESS!');
-  }, function(error) {
-      console.log('FAILED...', error);
-  });
-  /*emailjs.send('service_liq9ztn', contato, emailData)
-  .then(function(response) {
-  console.log('SUCCESS!', response.status, response.text);
-  alert('Seu email foi enviado com sucesso!');
-  }, function(error) {
-  console.log('FAILED...', error);
-  alert('Ocorreu um erro ao enviar o seu email. Por favor, tente novamente mais tarde.');
-  });*/
-
+  emailjs.send('service_liq9ztn', 'template_whxr6ae', emailData)
+    .then(function(response) {
+       console.log('Email enviado com sucesso:', response.status, response.text);
+    }, function(error) {
+       console.log('Ocorreu um erro ao enviar o email:', error);
+    });
   }
-  
