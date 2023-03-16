@@ -1,0 +1,116 @@
+header{
+    margin-top: -2%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.img-fluid1{
+    width: 30%;
+    margin-left: 5%;
+}
+.img-fluid2{
+    width: 52%;
+    margin-left: 40%;
+    margin-top: -32%;
+    border-radius: 10%;
+}
+.card1 p{
+    margin-top: -35%;
+    margin-left: 10%;
+    width: 21%;
+    font-size: 30px;
+    font-family: Quicksand;
+    color: #00d9a6;
+}
+.card2 p{
+    margin-top: 36%;
+    margin-left: 10%;
+    width: 21%;
+    font-size: 25px;
+    font-family: Quicksand;
+    color: #ccc;
+}
+.orcamento{
+    margin-top: -35%;
+    margin-left: 9%;
+}
+.button1 {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 12px 24px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 30px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition-duration: 0.3s;
+}
+.button1:hover {
+    background-color: #3e8e41; 
+    color: white; 
+}
+.section2{
+    background: #f8f8f8;;
+}
+.header-st2{
+    text-align: center;
+    font-family: inherit;
+    font-weight: 300;
+    color: #00d9a6!important;
+    font-size: 42px;
+    margin-top: 5%;
+}
+.descr-st2{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.section3{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.function1-st2{
+   margin-right: 20px;
+   margin-left: 2%;
+}
+.choose{
+    color: #00d9a6!important;
+}
+.function2-st2{
+    margin-right: 20px;
+    margin-left: 2%;
+}
+.addictional{
+    color: #00d9a6!important;
+}
+.function3-st2{
+    margin-right: 20px;
+    margin-left: 2%;
+}
+.take-off{
+    color: #00d9a6!important;
+}
+.section4{
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 12px 24px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 30px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition-duration: 0.3s;
+}
+
+
+  
