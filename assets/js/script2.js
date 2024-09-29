@@ -33,7 +33,7 @@ function sendEmail(event) {
     console.log(emailData);  // Exibindo os dados no console para depuração
 
     // Enviando o e-mail via EmailJS
-    emailjs.send('service_4k4gbop', 'template_uwuk8js', emailData)
+    emailjs.send("service_4k4gbop","template_uwuk8js", emailData)
         .then(function (response) {
             console.log('Email enviado com sucesso:', response.status, response.text);
             alert("Email enviado com sucesso!");
