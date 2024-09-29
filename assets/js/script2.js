@@ -23,11 +23,11 @@ function sendEmail(event) {
 
     // Montando o objeto com os dados do e-mail
     let emailData = {
-        to_name: 'WebBoys',
-        from_name: nome,
-        from_email: email,
-        subject: assunto,
-        message: mensagem,
+        to_name: 'WebBoys',          // Destinatário no template
+        from_name: nome,             // Remetente (nome do usuário)
+        from_email: email,           // E-mail do remetente
+        subject: assunto,            // Assunto da mensagem
+        message: mensagem            // Conteúdo da mensagem
     };
 
     console.log(emailData);  // Exibindo os dados no console para depuração
